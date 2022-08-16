@@ -1,0 +1,77 @@
+ body {
+  margin: 0;
+  font-family: 'Rubik Dirt',cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-image: url(https://source.unsplash.com/random/1920x1080/?wallpaper,seashore,citynight);
+  background-size: cover;
+  overflow: hidden;
+ /*  background-repeat: no-repeat; */
+        
+  
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 7rem;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Raleway',sans-serif;
+  
+  
+  
+}
+
+.clock {
+  display: flex;
+}
+
+.clock div {
+  margin: 5px;
+  position: relative;
+}
+
+.clock span {
+  width: 100px;
+  height: 100px;
+  background: black;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, red ,aquamarine);
+  /*bg = variable with static body bg img*/
+  opacity: 0.8; 
+}
+#hour{
+        font-family: 'Raleway',sans-serif;
+}
+#min{
+        font-family: 'Raleway',sans-serif;
+}
+#sec{
+        font-family: 'Raleway',sans-serif;
+}
+
+.clock #ampm {
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background: rebeccapurple;
+}
